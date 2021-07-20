@@ -1,0 +1,63 @@
+.navbar{
+    background: #fff;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo{
+    font-size: 2.3rem;
+    background: #edf2f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:2rem;
+    text-decoration: none;
+    color:black;
+}
+
+.slider{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:30rem;
+    padding: 0 2rem;
+}
+
+.level{
+    flex: 0 0 40%;
+    font-size: 1.5rem;
+    margin-top:2px;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.format{
+    margin-left: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select{
+    width:13rem;
+    font-size: 1.5rem !important;
+}
+
+.item{
+    font-size: 1.5rem !important;
+}
+
+@media (max-width:600px) {
+    .navbar{
+        height: 20vh;
+        flex-direction: column;
+    }
+    .wrapper{
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+}
