@@ -1,0 +1,51 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    align-items: stretch;
+    gap: 0px 0px;
+    grid-template-areas:
+      ". . . . ."
+      ". . . . ."
+      ". . . . .";
+    height:90vh;
+     
+}
+
+.container__item{
+   width: 100%;
+   height: auto;
+    position: relative;
+    cursor: pointer;
+}
+
+.container__item:hover .copyText{
+    opacity: 1;
+}
+
+.copyText{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 1.5rem;
+    background: rgba(255, 255, 255, .4);
+    color: #fff;
+    text-transform: uppercase;
+    padding: .5rem 2.3rem;
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+.goBack{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 1.5rem;
+    background: rgba(255, 255, 255, .4);
+    color: #fff;
+    text-transform: uppercase;
+    padding: .5rem 2.3rem;
+    text-decoration: none;
+}
