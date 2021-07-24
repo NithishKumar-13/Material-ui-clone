@@ -12,7 +12,7 @@ const GenerateScale = () => {
     const { colorName } = useParams()
     const [brightness , setBrightness] = useState(1000)
     const [colorFormat , setColorFormat] = useState(1)
-    const [isCopied , setIsCopied] = useState(false)
+    const [, setIsCopied] = useState(false)
     const [showCard , setShowCard] = useState(false)
     const [background , setBackground] = useState('')
 
